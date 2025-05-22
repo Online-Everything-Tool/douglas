@@ -1,0 +1,10 @@
+# .gitignore
+node_modules/
+dist/ # If you prefer the action to always compile
+*.js.map # If you generate source maps
+summary*.md
+screenshot*.png
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode

@@ -1,0 +1,28 @@
+{
+  "name": "douglas",
+  "version": "1.0.0",
+  "description": "Meet Douglas. He's our diligent, Puppeteer-based guardian for the [Online Everything Tool (OET)](https://github.com/Online-Everything-Tool/oet) project. Douglas may seem unassuming, but he has a very important job: ensuring all new OET contributions strictly adhere to our sacred client-side ethos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Online-Everything-Tool/douglas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Online-Everything-Tool/douglas/issues"
+  },
+  "homepage": "https://github.com/Online-Everything-Tool/douglas#readme",
+  "dependencies": {
+    "puppeteer": "^24.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/puppeteer": "^5.4.7",
+    "typescript": "^5.8.3"
+  }
+}
