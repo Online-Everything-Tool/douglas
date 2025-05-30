@@ -50,7 +50,6 @@ async function initializePage(): Promise<Page> {
   });
   pageInstance = await browserInstance.newPage();  
   pageInstance.setDefaultNavigationTimeout(60000);
-  console.log('got here')
   await pageInstance.goto('https://tabs.ultimate-guitar.com')
   console.log('Puppeteer browser launched.');
   return pageInstance;
