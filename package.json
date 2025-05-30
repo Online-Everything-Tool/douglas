@@ -4,6 +4,9 @@
   "description": "Meet Douglas. He's our diligent, Puppeteer-based guardian for the [Online Everything Tool (OET)](https://github.com/Online-Everything-Tool/oet) project. Douglas may seem unassuming, but he has a very important job: ensuring all new OET contributions strictly adhere to our sacred client-side ethos.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/ultimate-guitar-api.js",
+    "dev": "tsc && node dist/ultimate-guitar-api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,11 +21,15 @@
   },
   "homepage": "https://github.com/Online-Everything-Tool/douglas#readme",
   "dependencies": {
-    "puppeteer": "^24.9.0"
+    "cross-fetch": "^4.1.0",
+    "puppeteer": "^24.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"    
   },
   "devDependencies": {
-    "@types/node": "^22.15.21",
-    "@types/puppeteer": "^5.4.7",
+    "@types/node": "^22.15.27",
+    "@types/puppeteer": "^7.0.4",
     "typescript": "^5.8.3"
   }
 }

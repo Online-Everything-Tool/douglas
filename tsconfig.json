@@ -16,7 +16,8 @@
     "skipLibCheck": true 
   },
   "include": [
-    "check-tool.ts"
+    "check-tool.ts",
+    "ultimate-guitar-api.ts",
   ],
   "exclude": ["node_modules", "dist"]
 }
