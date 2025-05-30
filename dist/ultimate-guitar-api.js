@@ -44,7 +44,7 @@ async function initializePage() {
     }
     console.log('Launching Puppeteer browser...');
     const browserInstance = await puppeteer_extra_1.default.launch({
-        headless: false,
+        headless: true,
         defaultViewport: null,
         args: ['--no-sandbox', '--start-maximized'],
     });

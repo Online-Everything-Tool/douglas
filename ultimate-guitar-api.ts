@@ -44,7 +44,7 @@ async function initializePage(): Promise<Page> {
   }
   console.log('Launching Puppeteer browser...');
   const browserInstance = await puppeteer.launch({
-    headless: false,
+    headless: true,
     defaultViewport: null,
     args: ['--no-sandbox', '--start-maximized'],
   });
